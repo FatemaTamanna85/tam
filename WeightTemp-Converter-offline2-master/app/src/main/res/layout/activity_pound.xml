@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6C290"
+    tools:context=".PoundActivity">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginTop="60dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="Pound to KG Converter"
+
+
+
+        />
+
+
+    <EditText
+        android:hint="@string/txt1"
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+    <requestFocus />
+    </EditText>
+
+    <EditText
+        android:hint="@string/txt2"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+
+<Button
+    android:onClick="Convert"
+    android:text="@string/btn1"
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/editText2"
+    android:layout_marginTop="70dp"
+    android:background="#E74E4E"
+    android:textSize="25dp"
+    android:textColor="#000000"
+
+    />
+
+    <Button
+        android:onClick="Clear"
+        android:text="@string/btn2"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/button1"
+        android:layout_marginTop="10dp"
+        android:background="#E74E4E"
+        android:textSize="25dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="#F7EFEF"
+        android:text="Back"
+        android:onClick="Back"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+</RelativeLayout>

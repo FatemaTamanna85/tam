@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weight_Temp_Converter</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt1">Pound</string>
+    <string name="txt2">Kg</string>
+    <string name="btn1">Convert</string>
+    <string name="btn2">Clear</string>
+</resources>

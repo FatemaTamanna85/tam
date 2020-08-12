@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6C290"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="10dp"
+        android:layout_x="94dp"
+        android:layout_y="233dp"
+        android:text="Sign In With Your ID"
+        android:textColor="#F5021E"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/userIdText"
+        android:layout_width="218dp"
+        android:layout_height="51dp"
+        android:layout_x="97dp"
+        android:layout_y="324dp"
+        android:background="#EE6C43"
+        android:hint="Enter username"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="214dp"
+        android:layout_height="53dp"
+        android:layout_x="98dp"
+        android:layout_y="387dp"
+        android:background="#EE6C43"
+        android:hint="Enter id"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="493dp"
+        android:textStyle="bold"
+        android:background="#E74E4E"
+        android:onClick="login"
+        android:text="Login" />
+</AbsoluteLayout>
